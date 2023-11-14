@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BalloonGame/static/css/main.8984f4b7.css",
+    "main.js": "/BalloonGame/static/js/main.e18175d5.js",
+    "static/js/787.54d4cc2e.chunk.js": "/BalloonGame/static/js/787.54d4cc2e.chunk.js",
+    "static/media/balloon_img.jpg": "/BalloonGame/static/media/balloon_img.9de5648eadd4887b1b57.jpg",
+    "index.html": "/BalloonGame/index.html",
+    "main.8984f4b7.css.map": "/BalloonGame/static/css/main.8984f4b7.css.map",
+    "main.e18175d5.js.map": "/BalloonGame/static/js/main.e18175d5.js.map",
+    "787.54d4cc2e.chunk.js.map": "/BalloonGame/static/js/787.54d4cc2e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8984f4b7.css",
+    "static/js/main.e18175d5.js"
+  ]
+}
