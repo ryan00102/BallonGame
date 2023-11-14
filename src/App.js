@@ -1,9 +1,8 @@
-// import { ThemeProviders } from "styled-components";
 import { Suspense } from 'react';
-import BalloonSearch from "./BalloonSearch";
-import "./Styles/App.css";
-import { GlobalStyles } from './Styles/GlobalStyles';
-import { ThemeProviders } from './Styles/themeProvider';
+import BalloonSearch from "./Components/BalloonSearch";
+import "./Themes/App.css";
+import { GlobalStyles } from './Themes/GlobalStyles';
+import { ThemeProviders } from './Themes/themeProvider';
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 import React, { useCallback, useContext } from 'react';
 import styled from 'styled-components';
+import balloonImg from '../assets/balloon_img.jpg';
 import { CODE, OPEN_CELL, TableContext } from './BalloonSearch';
-import balloonImg from './balloon_img.jpg';
 
 const getTdContent = (code) => {
     switch (code) {
@@ -38,7 +38,7 @@ const Td = ({ rowIndex, cellIndex }) => {
     
     return (
         <StyledTd>
-            <td
+            <td 
                 onClick={onClickTd}
             >{getTdContent(tableData[rowIndex][cellIndex])}
             </td>
@@ -47,6 +47,7 @@ const Td = ({ rowIndex, cellIndex }) => {
 
 }
 const StyledTd = styled.td`
+    width: 40px;
     color:  ${props => props.theme === 'light' ? '#31302E' : '#bbb'};
     border-top: ${props => props.theme.tdBorderColor};
     border-left: ${props => props.theme.tdBorderColor};
